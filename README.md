@@ -4,6 +4,7 @@
 dulceria a sacar sus presupuestos de los diferentes tipos de dulces y materiales desde la comodidad 
 de sus casas."
 
-Este programa es un generador de presupuestos para sacar el total de una serie de dulces/materiales
-tomando en cuenta diferentes factores, algunos de estos 
-factores son: gramaje, costo, peso, volumen, distancia de entrega, disponibilidad de personal.
+Este programa es un generador de presupuestos para sacar el total de una serie de dulces/materias primas
+tomando los siguientes factores: calidad, cantidad, marca, precio (mayoreo, menudeo, ediciones especial, promociones, urgencias, preventa), gramaje o volumen o cantidad 
+bolsa, bote o pieza), entrega (distancia de entrega, disponibilidad de personal, disponibildad del producto, tiempo de entrega, entrega a domicilio o entregar en 
+tienda).
