@@ -1,4 +1,4 @@
-# Presupuesto-Dulceria
+# Presupuesto-Dulceria/Materias Primas
 ## contexto
 "El progrma se piensa ser usado como parte de una pagina web para ayudar a los clientes de una 
 dulceria a sacar sus presupuestos de los diferentes tipos de dulces y materiales desde la comodidad 
