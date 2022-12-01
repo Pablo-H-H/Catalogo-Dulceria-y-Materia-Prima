@@ -23,6 +23,7 @@ como herencia, agregación y composición.
 El programa inicia registrando los datos del usuario, entonces se le asigna un catálogo con 
 diferentes categorías de objetos que se pueden encontrar en una Dulcería y Materias Primas, las 
 categorías que tiene disponible y precargadas son: Chocolates, Frituras y Artículos de Fiesta. 
+
 Después de presentarse las categorías se puede saber que contiene cada una con escribir su nombre, 
 si se desea saber más información sobre un artículo solo escribe el nombre del artículo y su 
 información completa de desplegará.  Si el usuario quiere saber los datos que ingresó al inicio 
