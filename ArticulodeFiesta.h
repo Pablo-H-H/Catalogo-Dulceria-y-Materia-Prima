@@ -35,7 +35,7 @@ void ArticulodeFiesta::getPresentacion(){
     getNombre();
     cout << "Unidad por paquete: " << unidad << endl;
     cout << "Color: " << color << endl;
-    cout << "Tamaño: " << tamanio << endl;
+    cout << "TamaÃ±o: " << tamanio << endl;
     cout << "" << endl;
 }
 
