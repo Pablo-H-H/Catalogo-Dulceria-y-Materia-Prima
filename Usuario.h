@@ -1,3 +1,4 @@
+#include <iostream>
 #ifndef USUARIO
 #define USUARIO
 using namespace std;
@@ -5,25 +6,34 @@ using namespace std;
 class Usuario
 {
     private:
-        string nombre;
-        string correo;
-        string contrasenia;
-        string direccion;
-        string metodoPago;
+        string nombreUsuario;
+        string contraseniaUsuario;
+        string correoUsuario;
+        string direccionUsuario;
+
+
     public:
-        Usuario(string, string, string, string, string);
+        Usuario(string, string, string, string);
+        string getCorreoUsuario();
+        string getContraseniaUsuario();
     protected:
 
 
 };
 
-Usuario::Usuario(string _nombre, string _correo, string _contrasenia, string _direccion, string _metodoPago){
-    nombre = _nombre;
-    correo = _correo;
-    contrasenia = _contrasenia;
-    direccion = _direccion;
-    metodoPago = _metodoPago;
+Usuario::Usuario(string _nombreUsuario, string _contraseniaUsuario, string _correoUsuario, string _direccionUsuario){
+    nombreUsuario = _nombreUsuario;
+    correoUsuario = _correoUsuario;
+    contraseniaUsuario = _contraseniaUsuario;
+    direccionUsuario = _direccionUsuario;
 }
 
+string Usuario::getCorreoUsuario(){
+    return correoUsuario;
+}
+
+string Usuario::getContraseniaUsuario(){
+    return contraseniaUsuario;
+}
 
 #endif
